@@ -1,0 +1,5 @@
+- Agregar funcionalidad para posts, subir pfp y crear descripción.
+
+- Usar transacciones para las operaciones que deben ser atómicas, como seguir a un usuario.
+
+- Crear pruebas unitarias. Usar el paquete testing y un mock de la base de datos para probar las funciones de la aplicación
