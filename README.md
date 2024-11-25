@@ -146,7 +146,7 @@ go test -v ./system/api/src/tests/
 ### User Profile
 
 - **GET /profile**: Get your own profile.
-- **PUT /update-username**: Update your username.
+- **POST /update-username**: Update your username.
 
   **Request Body**:
   ```json
@@ -155,7 +155,7 @@ go test -v ./system/api/src/tests/
   }
   ```
 
-- **PUT /update-password**: Update your password.
+- **POST /update-password**: Update your password.
 
   **Request Body**:
   ```json
